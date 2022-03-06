@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    
+  <head class="collapse navbar-collapse">
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="logo">
+              <img src="img/Pastelería.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+            </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item link " href="#home">
+                <a class="enlace" href="#home">Home</a>
+              </li>
+              <li class="nav-item link ">
+                <a class="enlace" href="#formulario">Comprar</a>
+              </li>
+              <li class="nav-item link ">
+                <a class="enlace" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item link ">
+                <a class="enlace" href="Sigin/index.html">Administrador</a>
+              </li>
+            </ul>
+            <div class="velas">
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+          </div>
+          </div>
+        </div>
+      </nav>
+</head>
+  
+      <section class="container-sabores" id="home">
+
+  
+
+        <div class="texto">
+          <h1 class="title">Pasteleria <br> Estelar</h1>
+          <p class="textInicio">Ven y disfruta los sabores de otro mundo</p>
+        </div>
+
+        <div class="sabores">
+
+          <nav class="cambiarSyD">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active link-light" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sabores</button>
+                <button class="nav-link link-light" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Decoraciones</button>
+               
+              </div>
+          </nav>
+          
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <table class="table table-borderless">
+  
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Sabor</th>
+                          <th scope="col">Precio</th>
+                        </tr>
+                      </thead>
+  
+                      <tbody>                       
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Chocolate</td>
+                          <td>$400</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Fresa</td>
+                          <td>$350</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Vainilla</td>
+                          <td>$300</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Galleta</td>
+                          <td>$500</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>Nuez</td>
+                          <td>$350</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">6</th>
+                          <td>Limon</td>
+                          <td>$300</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">7</th>
+                          <td>Tres leches</td>
+                          <td>$600</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  
+                  <table class="table table-borderless ">
+  
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Decoración</th>
+                          <th scope="col">Precio</th>
+                        </tr>
+                      </thead>
+  
+                      <tbody>                       
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Nave de chocolate</td>
+                          <td>$100</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Planetas de dulce</td>
+                          <td>$50</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Alien de gelatina</td>
+                          <td>$150</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Bandera de conquista</td>
+                          <td>$50</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>Luna de queso</td>
+                          <td>$80</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+            </div>
+      </div>
+
+        
+      </section>
+
+      
+
+    <section id="formulario" class="container-form container">
+
+
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/formularioimg.jpg" class="img-fluid rounded-start imgform " alt="...">
+
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Formulario de órden</h5>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              <div class="formulario container">
+                <form>
+    
+                  <label for="nombre">Nombre</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="Nombre" id="nombre">
+    
+                    <label for="telefono">Telefono</label>
+                    <input class="form-control form-control-lg" type="number" placeholder="Telefono" id="telefono">
+                    
+                    <label for="correo">Correo electrónico</label>
+                    <input class="form-control form-control-lg" type="email" placeholder="Correo electrónico" id="correo">
+    
+                    <label for="descripcion">Descripción general del pastel</label>
+                    <textarea class="form-control" id="descripcion" rows="2"></textarea>
+                   
+    
+                  <div>
+                    <div class="checkbox1">
+                      <h3>Sabores</h3>
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="chocolate">
+                      <label for="chocolate">Chocolate</label>
+                      </p>
+                      
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="fresa">
+                      <label for="fresa">Fresa</label>
+                      </p>
+                    
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="vainilla">
+                      <label for="vainilla">Vainilla</label>
+                      </p>
+                      
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="galleta">
+                      <label for="galleta">Galleta</label>
+                      </p>
+    
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="nuez">
+                      <label for="nuez">Nuez</label>
+                      </p>
+                      
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="limon">
+                      <label for="limon">Limon</label>
+                      </p>
+    
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="tresLeches">
+                      <label for="tresLeches">Tres leches</label>
+                      </p>
+                    </div>
+    
+                    <div class="checkbox2">
+                      <h3>Decoraciones</h3>
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="nave">
+                      <label for="nave">Nave de chocolate</label>
+                      </p>
+                      
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="planetas">
+                      <label for="planetas">Planetas de dulce</label>
+                      </p>
+                    
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="alien">
+                      <label for="alien">Alien de gelatina</label>
+                      </p>
+                      
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="bandera">
+                      <label for="bandera">Bandera de conquista</label>
+                      </p>
+    
+                      <p>
+                      <input class="form-check-input" type="checkbox" value="" id="luna">
+                      <label for="luna">Luna de queso</label>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="boton">
+                  <button type="submit" class="pulse">Comprar pastel</button>
+                  </div>
+                    
+                </form>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="contacto" class="conatiner-contacto container">
+
+  
+
+  <h3 class="title contactoTitle">Contacto</h3>
+
+  <p class="textContacto">Nos encontramos en la vía lactea. Dentro del sistema solar, a dos planetas del sol. Entre Venus y Marte. <br> Ven a conocernos</p>
+
+  <div class="mapa">
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+       Ver mapa
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+      
+          <img src="img/mapa.jpg" class="mapa"/>
+      
+    </div>
+  </div>
+
+  <p class="textContacto">
+    Número: 5516847525 
+  </p>
+
+  <p class="textContacto">
+    Horario de atención: 9am - 6pm <br>
+    <img src="img/Pastelería.png" alt="logo" class="logo">
+
+  </p>
+
+  
+  
+</section>
+        
+
+
+</body>
+</html>
